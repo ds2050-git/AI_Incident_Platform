@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incident Management Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>AI Incident Resolution Center</h2>
+        <form id="incidentForm">
+            <input type="text" id="title" placeholder="Incident Title" required>
+            <textarea id="description" placeholder="Detailed Description" required></textarea>
+            <div class="row">
+                <select id="urgency">
+                    <option value="HIGH">Urgency: High</option>
+                    <option value="MEDIUM">Urgency: Medium</option>
+                    <option value="LOW">Urgency: Low</option>
+                </select>
+                <select id="impact">
+                    <option value="HIGH">Impact: High</option>
+                    <option value="MEDIUM">Impact: Medium</option>
+                    <option value="LOW">Impact: Low</option>
+                </select>
+            </div>
+            <button type="submit">Submit Incident</button>
+        </form>
+        <h3>Active Incidents</h3>
+        <table id="incidentTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Priority</th>
+                    <th>AI Summary</th>
+                    <th>Recommended Resolution</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
