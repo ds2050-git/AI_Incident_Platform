@@ -6,7 +6,6 @@ Enterprise-grade incident management platform built with **Java (Spring Boot)**,
 - **Backend Architecture:** Developed with Java 17 and Spring Boot utilizing Spring Data JPA for scalable service layers.
 - **Design Patterns:** Implements the **Strategy Pattern** for dynamic, decoupled priority calculation rules based on urgency and impact metrics.
 - **Relational Data Schema:** MySQL persistence layer featuring optimized indexing on priority and urgency fields for sub-second query performance.
-- **AI Triage Integration:** Automated generation of concise incident summaries and contextual knowledge base article recommendations.
 - **Interactive Dashboard:** Responsive frontend built with HTML5, CSS3, and ES6+ JavaScript for live incident queue tracking.
 
 ## Tech Stack
